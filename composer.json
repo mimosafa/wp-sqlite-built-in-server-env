@@ -1,0 +1,14 @@
+{
+    "name": "mimosafa/wordpress-sqlite-built-in-server",
+    "description": "Super simple WordPress development environment using PHP built-in server and SQLite.",
+    "type": "project",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Mimoto, Toshimichi",
+            "email": "mimosafa@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {}
+}
