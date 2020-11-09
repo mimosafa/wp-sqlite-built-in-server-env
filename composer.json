@@ -13,11 +13,15 @@
     "require": {},
     "require-dev": {
         "koodimonni/composer-dropin-installer": "dev-master",
-        "aaemnnosttv/wp-sqlite-db": "dev-master"
+        "aaemnnosttv/wp-sqlite-db": "dev-master",
+        "wp-cli/core-command": "^2.0@dev"
     },
     "extra": {
         "dropin-paths": {
             "wp-content/": ["package:aaemnnosttv/wp-sqlite-db:src/db.php"]
         }
+    },
+    "scripts": {
+        "wp-install": "source .env && bash install.sh"
     }
 }

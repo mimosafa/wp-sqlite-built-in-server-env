@@ -1,6 +1,8 @@
 /*
 
 !.gitignore
+!/.env.example
+!/install.sh
 
 !/wp-content
 /wp-content/*
