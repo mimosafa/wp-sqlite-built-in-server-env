@@ -10,5 +10,14 @@
         }
     ],
     "minimum-stability": "dev",
-    "require": {}
+    "require": {},
+    "require-dev": {
+        "koodimonni/composer-dropin-installer": "dev-master",
+        "aaemnnosttv/wp-sqlite-db": "dev-master"
+    },
+    "extra": {
+        "dropin-paths": {
+            "wp-content/": ["package:aaemnnosttv/wp-sqlite-db:src/db.php"]
+        }
+    }
 }
