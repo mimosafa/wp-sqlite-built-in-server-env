@@ -1,5 +1,5 @@
 {
-    "name": "mimosafa/wordpress-sqlite-built-in-server",
+    "name": "mimosafa/wp-sqlite-built-in-server-env",
     "description": "Super simple WordPress development environment using PHP built-in server and SQLite.",
     "type": "project",
     "license": "MIT",
