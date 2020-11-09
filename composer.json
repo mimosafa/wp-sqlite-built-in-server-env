@@ -22,6 +22,7 @@
         }
     },
     "scripts": {
-        "wp-install": "source .env && bash install.sh"
+        "wp-install": "source .env && bash install.sh",
+        "wp-serve": "source .env && php -S ${SITE_URL}"
     }
 }
