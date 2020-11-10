@@ -3,6 +3,7 @@
 !.gitignore
 !/.env.example
 !/install.sh
+!/README.md
 
 !/wp-content
 /wp-content/*
